@@ -1,3 +1,22 @@
-.navI{
-    background-color: rgba(240, 248, 255, 0);
+#navI{
+    
+    background-color: rgba(240, 248, 255, 0.171);
+    position: absolute;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgba(255,255,255,.15);
+    right: 0;
+    left: 0;
+    
+        & a{
+        color: $mainColor;
+        padding: 5px 50px 5px 50px;
+        font-size: 0.9em;
+
+        &:hover{
+            color: rgb(103, 139, 248);
+            transition: 0.5s;
+        }
+    }
 }
+

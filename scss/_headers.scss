@@ -1,9 +1,18 @@
 .headerIndex{
-    background-image: url(../img/rojessIheader.webp);
+    background-image: url(../img/headerIndex7.webp);
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+@media (min-width:992px){
+    .headerIndex{
+        background-image: url(../img/headerIndex7.webp);
+        background-attachment: fixed;
+        overflow:hidden;
+        height: 90vh;
+    }
 }
